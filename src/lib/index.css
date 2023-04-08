@@ -1,0 +1,198 @@
+.componentBody {
+
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform:translate3d(-50%, -20%, 0);
+    z-index: 2;
+
+}
+
+
+#arrayTitle table {
+
+  
+    padding-top: 25px;
+    border-spacing: 0;
+
+}
+
+.search, select {
+
+    outline: none;
+
+}
+
+.showEntriesTable {
+
+    display: flex;
+    gap: 7px;
+
+}
+
+.showEntries {
+
+    display: block;
+
+}
+
+.numberShowAndEntries {
+
+    padding-top: 15px;
+   
+
+}
+
+.active {
+
+    background-color: #0E6DFF;
+    text-align: center;
+    color: #FFFFFF !important;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+
+#array{
+
+    position: fixed;
+
+}
+
+
+
+#arrayTitle table tr td {
+
+
+    border-bottom: 2px solid #CBCACA ;
+    border-right: 1px solid #CBCACA ;
+    background-color: #F2F2F4;
+    height: 40px;
+    color: #5091E5;
+    text-align: center;
+    font-weight: bold;
+    width:100px;
+    cursor: pointer;
+   
+
+
+}
+
+
+
+#idName {
+
+    width: 50px;
+
+}
+
+#name {
+
+    width: 250px;
+
+}
+
+#disponibility {
+
+    width: 250px;
+
+}
+
+#typeSite {
+
+    width: 250px;
+
+}
+
+.site {   
+    
+    border-spacing: 0; 
+
+}
+
+.site tr td {   
+    
+    border-bottom: 1px solid #ECECEC ;
+    color: var(--secondary-color-);
+    height: 40px;
+    width: 100px;
+    text-align: center;
+   
+
+}
+
+#errorFound {
+
+    width: 100%;
+    color: red;
+    text-align: center;
+
+}
+
+.headerTable {
+
+    display: flex;
+    justify-content: space-between;
+    width: 925px;
+    
+}
+
+.pagination {
+
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+
+
+
+}
+
+
+
+li {
+
+    list-style-type: none;
+   
+
+}
+
+.page-item {
+
+    cursor: pointer;
+    display: block;
+    color: #5091E5;
+   
+}
+
+.page-link {
+
+    display: block;
+    cursor: pointer;
+    color: #5091E5;
+
+}
+
+.tFooter {
+
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+
+}
+
+.activeToClick {
+
+    color: #0E6DFF !important;
+    width: 30px;
+
+}
+
+                                   
+.numberShowAndEntries {
+
+    color: #0E6DFF;
+
+}
