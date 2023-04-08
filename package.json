@@ -41,9 +41,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "main": "dist/index.js",  
-  "module": "dist/index.js",  
-  "files": [ "dist", "README.md" ],  
-  "repository": {    "type": "git",    "url": "URL_OF_YOUR_REPOSITORY"  }
-
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tchoukouegno/employee-component-library"
+  }
 }
